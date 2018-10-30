@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1920" height="698" viewBox="0 0 1920 698">
+  <style>
+    svg * {
+      transition: fill 1s ease-out, opacity 1s ease-out;
+    }
+    .cls-1 {
+      fill: url(#grad);
+    }
+
+    .cls-1:hover {
+      transition-duration: 1s;
+      filter: url(#drop-shadow);
+    }
+  </style>
+  <defs>
+    <filter id="drop-shadow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="10"/>
+      <feOffset dx="0" dy="0" result="offsetblur"/>
+      <feFlood flood-color="#000000"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6f55be;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#422f7e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle class="cls-1" cx="684" cy="99" r="52"/>
+  <circle id="Ellipse_1_copy" class="cls-1" cx="1125.5" cy="79.5" r="52.5" />
+  <circle id="Ellipse_1_copy_2" class="cls-1" cx="1333.5" cy="301.5" r="52.5"/>
+  <circle id="Ellipse_1_copy_3" class="cls-1" cx="511.5" cy="299.5" r="52.5"/>
+  <circle id="Ellipse_1_copy_4" class="cls-1" cx="684.5" cy="526.5" r="52.5"/>
+  <circle id="Ellipse_1_copy_5" class="cls-1" cx="1025.5" cy="613.5" r="52.5"/>
+  <circle id="Ellipse_1_copy_6" class="cls-1" cx="1196.5" cy="494.5" r="52.5"/>
+  <circle id="Ellipse_1_copy_7" class="cls-1" cx="916.5" cy="301.5" r="80.5"/>
+</svg>
